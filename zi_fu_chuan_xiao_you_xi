@@ -1,0 +1,74 @@
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+    char a[]=" ";
+    char b[]="投币";
+    char c[]=" ";
+    char d[]="帅";
+    char e[]="不帅";
+    int i,j;
+    printf("请输入‘投币’以开始游戏\n");
+    scanf("%s",a);
+    i=strcmp(a,b);
+    if(i==0)
+    {
+        printf("请问寝室长帅不帅\n");
+         scanf("%s",c);
+         i=strcmp(c,d);
+         j=strcmp(c,e); 
+         if(i==0)
+         {
+         printf("您可太有眼光辣");
+         } 
+         else if(j==0)
+         {
+         printf("还想不想在寝室混了？！！");
+         }
+         else 
+         {
+         printf("不要逃避我的问题！");
+         }
+    }
+    else
+    {
+        printf("不听话？叉出去！");
+    }
+}
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+    char a[]=" ";
+    char b[]="投币";
+    char c[]=" ";
+    char d[]="帅";
+    char e[]="不帅";
+    int i,j;
+    printf("请输入‘投币’以开始游戏\n");
+    scanf("%s",a);
+    i=strcmp(a,b);
+    if(i==0)
+    {
+        printf("请问寝室长帅不帅\n");
+         scanf("%s",c);
+         i=strcmp(c,d);
+         j=strcmp(c,e); 
+         if(i==0)
+         {
+         printf("您可太有眼光辣");
+         } 
+         else if(j==0)
+         {
+         printf("还想不想在寝室混了？！！");
+         }
+         else 
+         {
+         printf("不要逃避我的问题！");
+         }
+    }
+    else
+    {
+        printf("不听话？叉出去！");
+    }
+}
